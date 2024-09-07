@@ -4,7 +4,7 @@ import { buttonVariants } from '../shadcn-ui/button'
 
 export function HeroSection() {
   return (
-    <Section className="md:my-40">
+    <Section>
       <div className="max-w-3xl space-y-6 md:space-y-8">
         <h1 className="text-center">
           Conectando ideias,

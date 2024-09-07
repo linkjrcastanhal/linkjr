@@ -11,7 +11,7 @@ export function Section({ children, className }: SectionProps) {
     <section className="relative">
       <div
         className={cn(
-          'width-wrapper my-20 flex flex-col items-center justify-center gap-16 text-center',
+          'width-wrapper my-40 flex flex-col items-center justify-center gap-16 text-center',
           className,
         )}
       >
