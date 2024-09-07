@@ -4,16 +4,27 @@ export const PAGES = [
     href: '/',
   },
   {
-    label: 'Sobre',
-    href: '/sobre',
-  },
-  {
     label: 'Vagas',
     href: '/vagas',
   },
   {
     label: 'Contato',
     href: '/contato',
+  },
+]
+
+export const SOCIAL = [
+  {
+    label: 'Instagram',
+    href: '/',
+  },
+  {
+    label: 'Linkedin',
+    href: '/',
+  },
+  {
+    label: 'Discord',
+    href: '/',
   },
 ]
 
