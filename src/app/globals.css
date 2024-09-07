@@ -87,3 +87,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .width-wrapper {
+    @apply max-w-8xl px-4 md:px-16 w-full mx-auto;
+  }
+}
