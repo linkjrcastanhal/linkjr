@@ -1,6 +1,7 @@
 import { CallToAction } from '@/components/call-to-action'
 import { HeroSection } from '@/components/hero-section'
 import { Services } from '@/components/services'
+import { Team } from '@/components/team'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <CallToAction />
       <Services />
+      <Team />
     </>
   )
 }
