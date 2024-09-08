@@ -75,3 +75,10 @@ export const TEAM = [
     image: '/images/team/nycolas.webp',
   },
 ]
+
+export const siteConfig = {
+  name: 'LinkJr',
+  url: 'https://linkjr.vercel.app',
+  description: 'Conectando ideias, Impulsionando soluções',
+  ogImage: '/og.jpg',
+}
