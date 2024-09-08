@@ -22,7 +22,15 @@ export default function Vagas() {
           alt="Banner do  processo seletivo"
           width={1920}
           height={370}
-          className="w-full"
+          className="hidden w-full md:block"
+        />
+
+        <Image
+          src="/images/banner-mob.png"
+          alt="Banner do processo seletivo"
+          width={400}
+          height={400}
+          className="mb-4 block md:hidden"
         />
       </Section>
       <AboutSection />
