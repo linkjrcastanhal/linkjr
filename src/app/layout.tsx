@@ -1,4 +1,4 @@
-import { Footer } from '@/components/footer'
+import { Footer } from '@/components/footer/'
 import { Navbar } from '@/components/navbar/'
 import { Red_Hat_Display as RedHatDisplay } from 'next/font/google'
 import './globals.css'
