@@ -18,7 +18,7 @@ export function Team() {
   const plugin = useRef(Autoplay({ delay: 2000 }))
 
   return (
-    <Section>
+    <Section spots>
       <div className="max-w-3xl space-y-4">
         <h2>Nosso time</h2>
         <p className="text-lg text-muted-foreground">

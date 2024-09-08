@@ -5,7 +5,10 @@ import Link from 'next/link'
 
 export function AboutSection() {
   return (
-    <Section className="flex-col-reverse gap-8 lg:flex-row lg:gap-16">
+    <Section
+      className="flex-col-reverse gap-8 lg:flex-row lg:gap-16"
+      background="background"
+    >
       <div className="space-y-4 text-center lg:text-start">
         <h2>Sobre o processo seletivo</h2>
         <p className="text-base text-muted-foreground">
