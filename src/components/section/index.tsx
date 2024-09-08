@@ -22,16 +22,13 @@ const SectionVariants = cva('relative', {
 
 interface SectionProps
   extends HTMLAttributes<HTMLDivElement>,
-    VariantProps<typeof SectionVariants> {
-  spots?: boolean
-}
+    VariantProps<typeof SectionVariants> {}
 
 export function Section({
   children,
   className,
   background,
   padding,
-  spots = false,
 }: SectionProps) {
   return (
     <section className={SectionVariants({ background, padding })}>
@@ -43,12 +40,6 @@ export function Section({
       >
         {children}
       </div>
-      {spots && (
-        <>
-          <div className="blur-spot-sm bottom-0 left-0 -translate-x-1/2 translate-y-1/2"></div>
-          <div className="blur-spot-lg right-0 top-0 translate-x-1/2"></div>
-        </>
-      )}
     </section>
   )
 }

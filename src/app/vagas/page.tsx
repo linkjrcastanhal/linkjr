@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function Vagas() {
   return (
     <>
-      <Section padding="lg" spots>
+      <Section padding="lg">
         <div className="max-w-3xl space-y-6 md:space-y-8">
           <h1>Vagas</h1>
           <p className="text-lg text-muted-foreground md:text-2xl">

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <Section className="gap-8 text-start" spots>
+    <Section className="gap-8 text-start">
       <Image
         src="/images/form.webp"
         alt="Imagem de formulário"
