@@ -8,10 +8,12 @@ const SectionVariants = cva('relative', {
       default: '',
       background: 'bg-background',
       primary: 'bg-primary text-background',
+      vagas: "bg-[url('/images/banner.png')]",
     },
     padding: {
       default: 'py-20',
       lg: 'py-40',
+      none: 'py-0',
     },
   },
   defaultVariants: {

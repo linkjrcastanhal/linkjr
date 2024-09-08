@@ -10,7 +10,7 @@ export function AboutSection() {
       background="background"
     >
       <div className="space-y-4 text-center lg:text-start">
-        <h2>Sobre o processo seletivo</h2>
+        <h1>Sobre o processo</h1>
         <p className="text-base text-muted-foreground">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -26,10 +26,11 @@ export function AboutSection() {
 
       <div className="flex w-1/2 flex-shrink-0 items-center justify-center">
         <Image
-          src="/images/placeholder.png"
+          src="/images/mockup.png"
           alt="placeholder"
-          width={500}
-          height={300}
+          width={400}
+          height={400}
+          className="rounded-2xl border"
         />
       </div>
     </Section>
