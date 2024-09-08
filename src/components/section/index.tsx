@@ -1,17 +1,39 @@
 import { cn } from '@/lib/utils'
-import { ReactNode } from 'react'
+import { cva, VariantProps } from 'class-variance-authority'
+import { HTMLAttributes } from 'react'
 
-interface SectionProps {
-  children: ReactNode
-  className?: string
-}
+const SectionVariants = cva('relative', {
+  variants: {
+    background: {
+      default: '',
+      primary: 'bg-primary text-background',
+    },
+    padding: {
+      default: 'py-20',
+      lg: 'py-40',
+    },
+  },
+  defaultVariants: {
+    background: 'default',
+    padding: 'default',
+  },
+})
 
-export function Section({ children, className }: SectionProps) {
+interface SectionProps
+  extends HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof SectionVariants> {}
+
+export function Section({
+  children,
+  className,
+  background,
+  padding,
+}: SectionProps) {
   return (
-    <section className="relative">
+    <section className={SectionVariants({ background, padding })}>
       <div
         className={cn(
-          'width-wrapper my-40 flex flex-col items-center justify-center gap-16 text-center',
+          'width-wrapper flex flex-col items-center justify-center gap-16 text-center',
           className,
         )}
       >
