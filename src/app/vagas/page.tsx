@@ -1,3 +1,5 @@
+import { Trails } from '@/components/vagas/trails'
+
 export default function Vagas() {
-  return <h1>Vagas</h1>
+  return <Trails />
 }
