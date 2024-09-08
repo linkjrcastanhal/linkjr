@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={redHatDisplay.className}>
-      <body className="relative h-full antialiased">
+      <body className="relative h-full overflow-x-hidden antialiased">
         <div className="flex min-h-screen w-full flex-col">
           <Navbar />
           <main>{children}</main>
