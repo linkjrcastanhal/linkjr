@@ -15,7 +15,7 @@ import { useRef } from 'react'
 import Autoplay from 'embla-carousel-autoplay'
 
 export function Team() {
-  const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }))
+  const plugin = useRef(Autoplay({ delay: 2000 }))
 
   return (
     <Section>
@@ -26,12 +26,7 @@ export function Team() {
         </p>
       </div>
 
-      <Carousel
-        className="w-full"
-        plugins={[plugin.current]}
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
-      >
+      <Carousel className="w-full" plugins={[plugin.current]}>
         <CarouselContent>
           {TEAM.map((item) => (
             <CarouselItem
