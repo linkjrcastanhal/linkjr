@@ -1,6 +1,5 @@
 import { Section } from '@/components/section'
 import { Card } from '@/components/shadcn-ui/card'
-import { buttonVariants } from '@/components/shadcn-ui/button'
 import {
   CircleDollarSign,
   CodeXml,
@@ -99,10 +98,14 @@ export function Trails() {
           </div>
         ))}
       </div>
-      <div className='max-w-3xl space-y-4'>
+      <div className="max-w-3xl space-y-4">
         <p className="text-lg">
-            Ainda não sabe qual área quer atuar? <Link className="font-bold underline" href="#">Confira o guia completo no nosso edital</Link>!
-          </p>
+          Ainda não sabe qual área quer atuar?{' '}
+          <Link className="font-bold underline" href="#">
+            Confira o guia completo no nosso edital
+          </Link>
+          !
+        </p>
       </div>
     </Section>
   )
