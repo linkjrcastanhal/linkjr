@@ -15,7 +15,7 @@ export function AboutSection() {
           O processo seletivo da LinkJR é composto por etapas que avaliam tanto
           habilidades técnicas quanto comportamentais. Nosso objetivo é garantir
           que todos os candidatos tenham a oportunidade de demonstrar seu
-          potenciale alinhar suas expectativas com as atividades da nossa
+          potencial e alinhar suas expectativas com as atividades da nossa
           empresa júnior. O processo inclui inscrição, testes práticos e
           entrevistas para conhecermos melhor quem se juntará à nossa equipe.
         </p>

@@ -2,8 +2,8 @@ import { Section } from '@/components/section'
 import { BadgeCheck } from 'lucide-react'
 
 const PREREQUISITES = [
-  'Estar aluno regular dos cursos de Sistemas de Informação ou Eng. de Computação da UFPA, Castanhal.',
-  'Disponibilidade para atuar 4h/semana de forma híbrida',
+  'Estar regularmente matriculado(a) nos cursos de Sistemas de Informação ou Eng. de Computação da UFPA, Castanhal.',
+  'Disponibilidade para atuar 4h/dia de forma híbrida',
   'Disponibilidade para atuar por pelo menos 1 (um) ano na equipe',
   'Disponibilidade para ida presencial à UFPA ou visita aos clientes, conforme demanda',
 ]
