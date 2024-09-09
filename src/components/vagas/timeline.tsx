@@ -1,5 +1,7 @@
 import { Section } from '@/components/section'
 import Image from 'next/image'
+import Link from 'next/link'
+import { buttonVariants } from '../shadcn-ui/button'
 
 export function Timeline() {
   return (
@@ -21,6 +23,9 @@ export function Timeline() {
         height={1160}
         className="w-fulll block sm:hidden"
       />
+      <Link href="https://forms.gle/YKcuVLQddevQyKBc9" target="_blank" className={buttonVariants({variant: 'secondary'})}>
+          Inscreva-se no Processo Seletivo &rarr;
+      </Link>
     </Section>
   )
 }

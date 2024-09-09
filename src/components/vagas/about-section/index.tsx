@@ -12,14 +12,15 @@ export function AboutSection() {
       <div className="space-y-4 text-center lg:text-start">
         <h1>Sobre o processo</h1>
         <p className="text-base text-muted-foreground">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+        O processo seletivo da <b>LinkJR</b> é composto por etapas que avaliam tanto
+        habilidades técnicas quanto comportamentais. Nosso objetivo é garantir
+        que todos os candidatos tenham a oportunidade de <b>demonstrar seu
+        potencial</b> e alinhar suas expectativas com as atividades da nossa
+        empresa júnior. O processo inclui <b>inscrição, testes práticos e entrevistas</b>
+        para conhecermos melhor quem se juntará à nossa equipe.
         </p>
 
-        <Link href="/" className={buttonVariants()}>
+        <Link href="https://forms.gle/YKcuVLQddevQyKBc9" target="_blank" className={buttonVariants()}>
           Quero fazer parte dessa história &rarr;
         </Link>
       </div>

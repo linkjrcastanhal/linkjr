@@ -4,7 +4,7 @@ import { Briefcase, Building2, GraduationCap } from 'lucide-react'
 
 const BENEFITS = [
   {
-    label: 'Crédito de Estágio Obrigatório',
+    label: 'Crédito de CH Complementar',
     Icon: Briefcase,
   },
   {

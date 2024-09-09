@@ -1,5 +1,6 @@
 import { Section } from '@/components/section'
 import { Card } from '@/components/shadcn-ui/card'
+import { buttonVariants } from '@/components/shadcn-ui/button'
 import {
   CircleDollarSign,
   CodeXml,
@@ -8,6 +9,7 @@ import {
   Megaphone,
   User,
 } from 'lucide-react'
+import Link from 'next/link'
 
 const TRAILS = [
   {
@@ -16,19 +18,19 @@ const TRAILS = [
       {
         title: 'Administrativo',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Responsável pela organização financeira e logística da empresa, cuidando de contratos, orçamento e documentação.',
         Icon: CircleDollarSign,
       },
       {
         title: 'Marketing',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Área de comunicação da empresa. Cria campanhas de marketing, administra redes sociais e elabora conteúdo visual.',
         Icon: Megaphone,
       },
       {
         title: 'Gestão de Pessoas',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Focada no desenvolvimento da equipe, recrutamento e no bem-estar dos membros, aderente às metodologias da empresa.',
         Icon: User,
       },
     ],
@@ -39,19 +41,19 @@ const TRAILS = [
       {
         title: 'Desenvolvimento',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Envolve a criação e manutenção de sistemas e sites, com foco em programação e implementação de soluções tecnológicas.',
         Icon: CodeXml,
       },
       {
         title: 'UI/UX',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Foco na experiência e interface dos usuários, desenhando layouts funcionais e intuitivos que melhoram a usabilidade dos projetos',
         Icon: LaptopMinimal,
       },
       {
         title: 'Data Science',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'Análise e interpretação de dados para insights estratégicos, construção de modelos preditivos e otimização de processos.',
         Icon: Database,
       },
     ],
@@ -64,7 +66,7 @@ export function Trails() {
       <div className="max-w-3xl space-y-4">
         <h2>Trilhas de trabalho</h2>
         <p className="text-lg">
-          Escolhe até duas áreas para atuação na empresa
+          Escolha até duas áreas para sua possível atuação na empresa
         </p>
       </div>
 
@@ -96,6 +98,11 @@ export function Trails() {
             </div>
           </div>
         ))}
+      </div>
+      <div className='max-w-3xl space-y-4'>
+        <p className="text-lg">
+            Ainda não sabe qual área quer atuar? <Link className="font-bold underline" href="#">Confira o guia completo no nosso edital</Link>!
+          </p>
       </div>
     </Section>
   )
