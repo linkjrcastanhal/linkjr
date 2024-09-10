@@ -101,7 +101,15 @@ export function Trails() {
       <div className="max-w-3xl space-y-4">
         <p className="text-lg">
           Ainda não sabe qual área quer atuar?{' '}
+<<<<<<< HEAD
           <Link className="font-bold underline" href="https://drive.google.com/file/d/1OLtDR7Dkj-t8ilb0EuNEfGWk8ft5RMF_/view" target='_blank'>
+=======
+          <Link
+            className="font-bold underline"
+            href="https://drive.google.com/file/d/1OLtDR7Dkj-t8ilb0EuNEfGWk8ft5RMF_/view?usp=sharing"
+            target="_blank"
+          >
+>>>>>>> main
             Confira o guia completo no nosso edital
           </Link>
           !
