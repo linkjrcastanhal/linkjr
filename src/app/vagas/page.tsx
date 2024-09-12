@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function Vagas() {
   return (
     <>
-      <Section background="primary" padding="none">
+      <Section background="vagas" padding="none">
         <Image
           src="/images/banner.png"
           alt="Banner do  processo seletivo"

@@ -3,9 +3,10 @@
 import { Button, buttonVariants } from '@/components/shadcn-ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/shadcn-ui/sheet'
 import { PAGES } from '@/config'
-import { Github, Menu, MoonStar } from 'lucide-react'
+import { Github, Menu } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
+import { ToggleTheme } from '@/components/theme/toggle-theme'
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
@@ -31,9 +32,7 @@ export function MobileNav() {
           </nav>
 
           <div className="mt-6 space-x-3 text-muted-foreground">
-            <Button variant="outline" size="icon">
-              <MoonStar className="size-5" />
-            </Button>
+            <ToggleTheme />
 
             <Link
               href="https://github.com/linkjrcastanhal/linkjr"
